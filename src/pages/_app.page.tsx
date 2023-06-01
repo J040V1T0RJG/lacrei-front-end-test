@@ -1,3 +1,4 @@
+import Header from '@/components/Header'
 import { GlobalStyle } from '@/styles/global'
 import { defaultTheme } from '@/styles/themes/default'
 import type { AppProps } from 'next/app'
@@ -11,6 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <main className={nunito.className}>
       <ThemeProvider theme={defaultTheme}>
         <GlobalStyle />
+        <Header />
         <Component {...pageProps} />
       </ThemeProvider>
     </main>
