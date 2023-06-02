@@ -69,11 +69,13 @@ export const HeaderContainer = styled.header`
     gap: 1rem;
 
     @media (max-width: 30rem) {
-      align-items: flex-start;
+      align-items: center;
       padding: 0.5rem 2rem;
 
       .menu {
         flex-direction: column;
+        align-items: center;
+
         gap: 0.5rem;
       }
     }

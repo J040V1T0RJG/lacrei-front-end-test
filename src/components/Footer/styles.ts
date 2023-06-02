@@ -65,4 +65,11 @@ export const FooterContainer = styled.footer`
 
     color: ${(props) => props.theme['gray-300']};
   }
+
+  @media (max-width: 30rem) {
+    .menu {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
 `
