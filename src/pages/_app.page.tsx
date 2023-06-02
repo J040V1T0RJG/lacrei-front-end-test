@@ -11,8 +11,8 @@ const nunito = Nunito({ subsets: ['latin'] })
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <main
-      className={nunito.className}
       style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}
+      className={nunito.className}
     >
       <ThemeProvider theme={defaultTheme}>
         <GlobalStyle />
