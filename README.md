@@ -1,3 +1,9 @@
+# lacrei
+
+![Cover](https://raw.githubusercontent.com/J040V1T0RJG/lacrei-front-end-test/main/.github/assets/Cover.png)
+
+- [Figma - Lacrei (APP)](https://www.figma.com/file/CItS5uEtcS33N4BNMxVdzS/Desafio?type=design&node-id=2-15&t=rZy51sNCSHSwx4wH-0)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
